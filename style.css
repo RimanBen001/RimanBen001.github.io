@@ -1,0 +1,132 @@
+header{
+  height: 270px;
+  border: 0px;
+  border-bottom: 5px;
+  border-color: green;
+  border-style: solid;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+header img{
+  padding: 20px;
+  justify-content: center;
+  display: block;
+  margin: auto;
+}
+
+header input{
+
+  justify-content: center;
+  display: block;
+  margin: auto;
+}
+
+.maindiv{
+
+  border: 0px;
+  border-bottom: 5px;
+  border-style: solid;
+  border-color: green;
+  height: 1700px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width:900px) {
+  .maindiv {
+    height: 4000px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+.seconddiv{
+  height: 320px;
+  width: 350px;
+  padding: 10px;
+  margin: 20px;
+  border: 2px;
+  border-style: solid;
+  border-color: lightgreen;
+  background-color: lightgreen;
+  display: inline-block;
+}
+
+.seconddiv:hover{
+  height: 340px;
+  width: 360px;
+}
+
+.seconddiv img{
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  justify-content: center;
+  display: block;
+}
+
+.seconddiv p{
+  color: red;
+  display: block;
+  text-align: center;
+
+}
+
+footer{
+  height: 220px;
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+/* ul.pagination li a:link    {color:green;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+} */
+/* ul.pagination li a:visited {color:pink;
+  background-color: #4CAF50;
+  color: black;
+  border: 1px solid #4CAF50;
+} */
+/* ul.pagination li a:hover   {color:red; } */
+ul.pagination li a:active  {color:black;
+background-color: #4CAF50;
+color: black;
+border: 1px solid #4CAF50;
+}
+
+ .active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+/* ul.pagination li a:hover:not(.active) {background-color: #ddd;} */
+
+div.center {text-align: center;}
+
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */

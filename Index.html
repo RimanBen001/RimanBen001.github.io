@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Novels website">
+    <meta name="keywords" content="Novels, pdf">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>RimNaija Novels-Page 1</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+
+      <header >
+        <img src="RimLogo30.png" alt="Logo">
+        <input type="text" id="searchbar" name ="search"  value=""
+        placeholder=" Search For the Book you Want" size="30" title="Type in a name">
+        <br/>
+        <input type="submit" name="search" value="search" onclick="search_Novel()" action="Index.js">
+      </header>
+
+      <div class="maindiv" id="myUL">
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p id="p">Memories of Midnight by Sidney Sheldon</p>
+          <p><a href="pdf/(2)Memories Of Midnight by Sidney Sheldon.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>The Lost Symbol by  Dan Brown</p>
+          <p><a href="pdf/(5)The Lost Symbol by  Dan Brown.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>INFERNO by Dan Brown</p>
+          <p><a href="pdf/(6)INFERNO by Dan Brown.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>Deception Point by Dan Brown</p>
+          <p><a href="pdf/(R)(2)Deception Point by Dan Brown.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>Angels and Demons by Dan Brown</p>
+          <p><a href="pdf/(R)(3)Angels and Demons by Dan Brown.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>50shades</p>
+          <p><a href="pdf/(R)50shades.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>A Coffin From Hong Kong by James Hadley</p>
+          <p><a href="pdf/(R)A Coffin From Hong Kong by James Hadley.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>A Time to Kill by John Grisham</p>
+          <p><a href="pdf/(R)A Time to Kill by John Grisham.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>An Ace Up My Sleeve by James Hadley</p>
+          <p><a href="pdf/(R)An Ace Up My Sleeve by James Hadley.pdf">open</a></p>
+        </div>
+
+        <div class="seconddiv">
+          <img src="Pdf.png" alt="Pdf">
+          <br/>
+          <p>Anansi Boys by Neil Gaiman</p>
+          <p><a href="pdf/(R)Anansi Boys by Neil Gaiman.pdf">open</a></p>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="center">
+  <ul class="pagination">
+    <!-- <li><a href="#">«</a></li> -->
+    <li><a href="Index.html">1</a></li>
+    <li><a href="Index1.html">2</a></li>
+    <!-- <li><a href="#">3</a></li> -->
+    <!-- <li><a href="#">4</a></li> -->
+    <!-- <li><a href="#">5</a></li> -->
+    <!-- <li><a href="#">6</a></li> -->
+    <!-- <li><a href="#">7</a></li> -->
+    <!-- <li><a href="#">»</a></li> -->
+  </ul>
+</div>
+
+<!-- <form action="search.php" method="post">
+    <input type="text" name="findMe" placeholder="Search Yacht">
+</form> -->
+<!-- <div class="gcse-search"></div> -->
+
+      </div>
+
+      <footer>
+        <p>You can send us a message here:</p>
+        <form action="mailto:RimanBen001@gmail.com" method="GET">
+    <input name="subject" type="text" placeholder="subject"/>
+    <br>
+    <br>
+    <textarea name="body" placeholder="message"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Send" />
+</form>
+      </footer>
+      <!-- <script async src="https://cse.google.com/cse.js?cx=399a5fce0ce51eb6e"></script> -->
+      <script src="Index.js"></script>
+      <script type="text/javascript">
+        function changingpages() {
+          document.getElementsByTagName('ul.pagination li a').addEventListener('click', isactive);
+
+          function isactive(){
+            document.getElementsByClassName('.active')
+          }
+        }
+      </script>
+  </body>
+</html>
